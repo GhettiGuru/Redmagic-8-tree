@@ -5,6 +5,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo twrp_nx729j-user
-add_lunch_combo twrp_nx729j-userdebug
-add_lunch_combo twrp_nx729j-eng
+COMMON_LUNCH_CHOICES=(
+    twrp_nx729j-user
+    twrp_nx729j-userdebug
+    twrp_nx729j-eng
+)
