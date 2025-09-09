@@ -10,17 +10,17 @@ DEVICE_PATH := device/nubia/NX729J
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := NX729J
+PRODUCT_RELEASE_NAME := nx729j
 
 ## Device identifier
-PRODUCT_DEVICE := NX729J
-PRODUCT_NAME := twrp_NX729J
+PRODUCT_DEVICE := nx729j
+PRODUCT_NAME := twrp_nx729j
 PRODUCT_BRAND := Nubia
 PRODUCT_MODEL := RedMagic 8 Pro
 PRODUCT_MANUFACTURER := Nubia
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := NX729J
+TARGET_OTA_ASSERT_DEVICE := nx729j
 
 # Theme
 TW_STATUS_ICONS_ALIGN := center
